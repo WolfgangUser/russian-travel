@@ -1,0 +1,10 @@
+.lead {
+  margin: 0 auto 92px;
+  width: min(100%, 928px);
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    width: 90%;
+  }
+}

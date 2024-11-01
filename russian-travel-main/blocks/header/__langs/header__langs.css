@@ -1,0 +1,5 @@
+.header__langs {
+  display: flex;
+  gap: 18px;
+  padding: 0;
+}

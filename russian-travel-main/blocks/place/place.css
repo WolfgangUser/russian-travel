@@ -1,0 +1,25 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content auto;
+  grid-template-areas:
+    "head url"
+    "img p";
+  column-gap: 3%;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-areas:
+      "head"
+      "url"
+      "img"
+      "p";
+    column-gap: 3%;
+    row-gap: 48px;
+    padding: 0 16px;
+  }
+}

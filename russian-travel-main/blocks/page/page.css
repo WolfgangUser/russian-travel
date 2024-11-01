@@ -1,0 +1,20 @@
+.page {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1;
+  background-color: #2a2c2f;
+  color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+@supports (font-variation-settings: normal) {
+  .page {
+    font-family: InterVariable, sans-serif;
+  }
+}

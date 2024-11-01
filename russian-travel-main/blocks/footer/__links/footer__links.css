@@ -1,0 +1,22 @@
+.footer__links {
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__links {
+    margin-left: 24px;
+  }
+}
+@media screen and (max-width: 608px) {
+  .footer__links {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 48px;
+  }
+}
